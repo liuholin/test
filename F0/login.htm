@@ -14,25 +14,25 @@
 <td><table>
 <form method ="POST" action="URL" name="frmLogin"  >
  <tr>
- <td>ÓÃ»§Ãû£º</td>
+ <td>ç”¨æˆ·åï¼š</td>
  <td><input type="text" name="username" value="Your name" size="20" maxlength="20" onfocus="if (this.value=='Your name')  this.value='';" /></td>
  <td > </td>
  <td> </td>
  </tr>
  <tr>
- <td>ÃÜ  Âë£º</td>
+ <td>å¯†  ç ï¼š</td>
  <td><input type="password" name="password" value="Your password" size="20" maxlength="20" onfocus="if (this.value=='Your password')  this.value='';" /></td>
  <td> </td>
  <td> </td>
  </tr>
  <tr>
- <td>ÑéÖ¤Âë:</td>
+ <td>éªŒè¯ç :</td>
  <td><input type="text" size="" name="inputcode" value="Your code" onfocus="if (this.value=='Your code')  this.value='';" /></td>
- <td><img src="https://github.com/liuholin/test/tree/master/img/aa.png" alt="ÇëË¢ĞÂ"> </td>
- <td><a href="#" onclick="shuaxin();">Ë¢ĞÂ</a></td>
+ <td><img src="https://github.com/liuholin/test/tree/master/F0/img/aa.png" alt="è¯·åˆ·æ–°"> </td>
+ <td><a href="#" onclick="shuaxin();">åˆ·æ–°</a></td>
  </tr>
  <tr>
- <td><input type="checkbox" name="zlogin" value="1">¼Ç×¡ÃÜÂë</td>
+ <td><input type="checkbox" name="zlogin" value="1">è®°ä½å¯†ç </td>
  </tr>
  </table>
  </td>
@@ -40,9 +40,9 @@
   <td> </td>   
   <td><table>
    <tr>
-  <td><input type="submit" name="login" value="µÇÂ¼" onClick="return validateLogin()"/></td>
-  <td><input type="reset" name="rs" value="ÖØÖÃ"></td>
-  <td><input type="button" name="button" value="×¢²á" onclick="location.href='×¢²áµÄURL'"></td>
+  <td><input type="submit" name="login" value="ç™»å½•" onClick="return validateLogin()"/></td>
+  <td><input type="reset" name="rs" value="é‡ç½®"></td>
+  <td><input type="button" name="button" value="æ³¨å†Œ" onclick="location.href='æ³¨å†Œçš„URL'"></td>
   </tr>
  </tr>
  </table>
@@ -56,16 +56,16 @@
     var sPassword = document.frmLogin.password.value ;
     var sinputCode =document.frmLogin.inputcode.value ;  
     if ((sUserName =="") || (sUserName=="Your name")){
-     alert("ÇëÊäÈëÓÃ»§Ãû!");
+     alert("è¯·è¾“å…¥ç”¨æˆ·å!");
      return false ;
     }
      
     if ((sPassword =="") || (sPassword=="Your password")){
-     alert("ÇëÊäÈëÃÜÂë!");
+     alert("è¯·è¾“å…¥å¯†ç !");
      return false ;
     }
     if ((sinputCode =="") || (sinputCode=="Your code")){
-        alert("ÇëÊäÈëÑéÖ¤Âë!");
+        alert("è¯·è¾“å…¥éªŒè¯ç !");
         return false ;
        }
    } 
